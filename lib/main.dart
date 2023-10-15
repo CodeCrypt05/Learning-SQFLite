@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:learning_sqflite/presentation/pages/home_screen.dart';
+import 'package:learning_sqflite/presentation/pages/insert_data_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomeScreen(),
+      home: StudentInfoScreen(),
     );
   }
 }
